@@ -1,0 +1,164 @@
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 212, 212);
+}
+
+.titulos{
+    color:black;
+}
+
+.flex-content {
+    display: flex;/*los elementos hijos sean flexibles */
+    flex-direction: row;/*el contenido va a estar en linea*/
+    flex-wrap:wrap;/* si el contenido no alcanza que se baje 
+    a otra linea*/
+    justify-content: center;/*que el div quede centrado*/
+    align-items: baseline;/*que todas las imagenes esten al mismo nivel*/
+    margin: 5% 10% 5% 10%;
+    align-content: center;
+}
+
+.flex-content div{
+    margin: 5%; /*cada imagen tendra su margen*/
+}
+
+.main-menu{
+    display:flex;
+    align-items: center;/*de alto que este centrado*/
+    justify-content: center; 
+    background-color:black;
+    color:white;
+}
+.main-menu img{
+    margin-left: 5%;
+}
+.opt-menu {
+   justify-content: flex-end;
+   width: 80%;
+}
+/*va a coger todos los li de la clase opt-menu*/
+.opt-menu li{
+  list-style: none;
+  width: 20%;
+}
+
+.opt-menu a:hover{
+    background-color:greenyellow;
+    color: black;
+    border: 8px greenyellow solid;
+    border-radius:10px;
+}
+
+
+.opt-menu a{
+    text-decoration: none;/*no queremos que este subrayado*/
+    color: white; 
+}
+
+.container{
+    text-align:center;/*para que el titulo este centrado
+    o se puede aparte el container h1 para que se centre todos los h1
+    que esten en la clase container*/
+    margin: 5% 10% 3% 8%; /* manecillas del reloj*/
+    font-family: 'Caveat', cursive;
+}
+
+.container h1{
+    font-size: 3rem;
+}
+.main-charecters{
+    display:flex; /*que toda la seccion sea flexible*/
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.charecter{
+    width: 25%; /*cada uno de los articulos tengan un ancho especifico*/
+    margin: 3%; 
+    border: 2px #E6E6E6 solid;
+    border-right: 4px #E6E6E6 solid;
+    border-bottom: 4px #E6E6E6 solid;
+    border-radius:10xp;/*borde redondeado*/
+    text-align: center; /*texto centrado*/
+    font-size:1rem;/*tamaño letra*/
+}
+
+.charecter img{
+  width: 80%;/*ancho de la imagen que se adapte al contenedor*/
+  border-radius: 3%;
+  
+}
+
+.charecter div{
+    text-align: justify;/*que el texto sea justificado a la izquierda*/
+    padding: 3%; /*que el texto este un poco separado de la margen*/
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.charecter h2{
+    font-weight: bold; /*negrilla a la letra*/
+    margin-bottom: 3%; /*que no este tan pegada a la imagen*/
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    height: 80px; /*ancho*/
+    text-align: center;
+}
+
+footer p{
+    padding-top: 2%;/*espacio de arriba*/
+}
+
+.fa-heart{
+    color:red;
+}
+
+.form_flex{
+    display:flex;
+    flex-direction: column;/*pone uno debajo de otra*/
+    text-align:left;/*que se alinie a la izquierda*/
+}
+.input-form{
+    margin-bottom:2%;/*que se separen*/
+}
+
+.input-form div{
+    width:30%;
+    float:left;
+}
+
+.input-form input{
+    width:60%;
+}
+
+.form-button{
+    text-align: center;
+}
+
+.form-button button{
+    background-color: violet ;
+    color:black;
+    border:5px solid;
+    border-radius: 30px;
+    width: 15%;
+    height: 50px;
+}
+
+.form_flex input{
+    height: 30px;
+    border:2px violet solid;
+    border-radius: 10px;
+    
+}
+.opt{
+    display: flex;
+    justify-content:space-between;
+}
+

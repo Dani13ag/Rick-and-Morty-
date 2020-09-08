@@ -1,0 +1,48 @@
+.sec-flex{
+    display:flex;
+    align-items:center; /*elementos centrados de forma vertical*/
+    margin:5% 5% 0% 5%;
+}
+
+.lenguage-sec{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-language{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.img-language img{
+    height: 250px;
+    width: 80%;
+}
+
+/**.sec-flex img{
+    width: 180px;
+}*/
+
+.img-language img:hover{
+    border:5px violet solid;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px;
+}
+
+.info img {
+    width: 120%;
+    border-radius: 10px;
+}
+
+.info{
+    margin-left: 15%;
+  
+}
+
+p{
+    display: flex;
+    margin-left:5%;
+}
+
+
