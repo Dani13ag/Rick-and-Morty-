@@ -162,3 +162,19 @@ footer p{
     justify-content:space-between;
 }
 
+.boton{
+    background-color: rgb(252, 147, 165) ;
+    color:black;
+    border:none;
+    border-radius: 30px;
+    width: 46%;
+    height: 33px;
+    margin-top: 3%;
+}
+
+.boton:hover{
+    background-color:rgb(236, 154, 236);
+    color: black;
+    border:none;
+    border-radius:30px;
+}
